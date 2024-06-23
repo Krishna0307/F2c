@@ -1,0 +1,215 @@
+
+.bannerContent{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 50%;
+}
+.bannerBlock{
+    position: relative;
+}
+.bannerContent h1 > span{
+    color: orange;
+}
+.bannerContent button{
+    margin: 0 30%;
+}
+
+
+.ourfeatures > section section {
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.ourfeaturesContent  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.ourfeatures figure :hover{
+    padding: 0 52px;
+    transform: scale(1.1);
+}
+.ourfeatures figcaption,.ourfeatures h3{
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.ourfeatures button :hover{
+    margin: 0 30%;
+    padding: 10px;
+    background-color: orange;
+    
+}
+.ourfeatures span{
+    padding:10px 30px;
+    background-color: orange;
+    color: #fff;
+    clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 0 100%, 13% 52%, 0 0);
+    
+}
+
+
+.ourproducts > section section {
+    background-color: #ffff;
+    padding: 10px;
+
+}
+
+.ourproductsContent  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.ourproducts img{
+    height: 170px;
+    top: 20%;
+}
+.ourproducts figure :hover{
+    padding:0 60px;
+    transform: scale(1.1);
+}
+.ourproducts figcaption,.ourproducts h3{
+    text-align: center;
+    font-weight: bold;
+}
+.ourproducts button{
+    margin: 0 30%;
+    padding: 10px;
+}
+.ourproducts h3 span{
+    padding:10px 30px;
+    background-color: orange;
+    color: #fff;
+    clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 0 100%, 13% 52%, 0 0);
+    
+}
+
+.ourproductsContent{
+    
+    font-size: x-large;
+}
+
+.productcategories > section section {
+    background-color: #ffff;
+    padding: 10px;
+
+}
+
+.productcategoriesContent  {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.productcategories  figure{
+    margin: 0 10%;
+    padding: 10px;
+}
+.productcategories figcaption,.productcategories  h3  {
+    text-align: center;
+    font-weight: bold;
+}
+.productcategories button{
+    margin: 0 30%;
+    padding:10px
+}
+.productcategories p{
+    text-align: center;
+}
+.productcategories h3 span{
+    padding:10px 30px;
+    background-color: orange;
+    color: #fff;
+    clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 0 100%, 13% 52%, 0 0);
+}
+
+.coustemerblock > section section {
+    background-color: #ffff;
+    padding: 10px;
+
+}
+
+ .coustemerblockContent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.coustemerblock img{
+    border-radius: 50%;
+}
+.coustemerblock figure{
+    margin: 0 30%;
+    padding:   10px;
+}
+.coustemerblock figcaption,.coustemerblock h3 {
+    text-align: center;
+    font-weight: bold;
+}
+.coustemerblock h3 span{
+    padding:10px 30px;
+    background-color: orange;
+    color: #fff;
+    clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 0 100%, 13% 52%, 0 0);
+}
+
+.ourblogsContent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap:10px ;
+    text-align: center;
+}
+.ourblogs > section section {
+    background-color: #ffff;
+   
+
+}
+.ourblogs img{
+   width: 100%;
+   padding-left: -50%;
+   height: 250px;
+    
+    
+}
+
+.ourblogs h3 span{
+    padding:10px 30px;
+    background-color: orange;
+    color: #fff;
+    clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 0 100%, 13% 52%, 0 0);
+}
+
+
+.ourblogs figcaption,.ourblogs  h3  {
+    text-align: center;
+    font-weight: bold;
+}
+.ourblogs button{
+    margin: 0 30%;
+    padding:10px
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #fff;
+    grid-column-gap: 10px;
+
+ }
+ .footer-3 ul li{
+    list-style:none;
+ }
+ .footer-3 p{
+    margin: 0%;
+ }

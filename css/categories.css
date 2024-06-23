@@ -1,0 +1,50 @@
+
+.inputarea i{
+    margin-left: -25px;
+}
+.categories-container{
+    display: grid;
+    grid-template-columns:40% 30% 30%;
+}
+.categories-container img{
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+}
+.categories-container .Adding{
+    display: flex;
+    
+
+}
+.categories-container .Adding{
+    text-align: center;
+}
+
+.categories-container{
+    text-align: center;
+}
+.categories-container  {
+    text-align: center;
+   
+}
+.product-elements .orengecontainer img{
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+}
+.orengecontainer{
+    display: flex;
+}
+.orengecontainer img{
+    width: 70px;
+}
+.orengecontainer h2 {
+    font-size: 18px;
+}
+.category-main-section{
+    background-color: aquamarine;
+}
+.button-cart :hover{
+    transform: scale(1.1);
+}
+
